@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  font-family: 'Dosis' , sans-serif;
+}
+
+hr {
+  width: 300px;
+  border: solid 1px rgba(10, 10, 10, 0.3);
+}
+
+

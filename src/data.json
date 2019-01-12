@@ -1,0 +1,103 @@
+{
+    "title": "Hello, I'm Behzad",
+    "subtitle": "UI/UX designer && web and android developer",
+    "links": {
+        "github": "https://github.com/alitalebi7s",
+        "stackoverflow": "https://stackoverflow.com/cv/ali.talebi.uix",
+        "linkedin": "https://www.linkedin.com/in/alitalebi7s/",
+        "twitter": "http://twitter.com/ali"
+    },
+    "sections": [
+        {
+            "title" : "About",
+            "items" : [
+                {
+                    "type" : "p",
+                    "content" : "When my dev senses kick-in I build presumably awesome stuff. I stay close to the community and try to keep tabs with the pace at which the web is evolving. I also like to blog what I learn."
+                }
+            ]
+
+        },
+        {
+            "title" : "Skills",
+            "items" : [
+                {
+                    "type" : "card",
+                    "content" : {
+                        "image" : "/images/react_js.svg",
+                        "title" : "React",
+                        "level" : 4,
+                        "color" : "#61D9FA"
+                    }
+                },
+                {
+                    "type" : "card",
+                    "content" : {
+                        "image" : "/images/javascript.svg",
+                        "title" : "Javascript",
+                        "level" : 8,
+                        "color" : "#fd6"
+                    }
+                },
+                {
+                    "type" : "card",
+                    "content" : {
+                        "image" : "/images/android.svg",
+                        "title" : "Android",
+                        "level" : 8,
+                        "color" : "#A3C53D"
+                    }
+                },
+                {
+                    "type" : "card",
+                    "content" : {
+                        "image" : "/images/asp_net.svg",
+                        "title" : "Asp.net",
+                        "level" : 5,
+                        "color" : "#0A78D5"
+                    }
+                },
+                {
+                    "type" : "card",
+                    "content" : {
+                        "image" : "/images/node_js.svg",
+                        "title" : "nodejs",
+                        "level" : 9,
+                        "color" : "#81CC30"
+                    }
+                },
+                {
+                    "type" : "card",
+                    "content" : {
+                        "image" : "/images/html5.svg",
+                        "title" : "Html",
+                        "level" : 10,
+                        "color" : "#EE642B"
+                    }
+                },
+                {
+                    "type" : "card",
+                    "content" : {
+                        "image" : "/images/angularjs.svg",
+                        "title" : "Angular",
+                        "level" : 10,
+                        "color" : "#DC062F"
+                    }
+                },
+                {
+                    "type" : "card",
+                    "content" : {
+                        "image" : "/images/bootstrap.svg",
+                        "title" : "Bootstrap",
+                        "level" : 8,
+                        "color" : "#7D53A5"
+                    }
+                }
+            ]
+
+        }
+    ],
+    "icons": {
+        "down" : "images/down.png"
+    }
+}
