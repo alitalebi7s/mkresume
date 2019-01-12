@@ -24,7 +24,7 @@
                 {
                     "type" : "card",
                     "content" : {
-                        "image" : "/images/react_js.svg",
+                        "image" : "/images/react_js.png",
                         "title" : "React",
                         "level" : 4,
                         "color" : "#61D9FA"
@@ -33,7 +33,7 @@
                 {
                     "type" : "card",
                     "content" : {
-                        "image" : "/images/javascript.svg",
+                        "image" : "/images/javascript.png",
                         "title" : "Javascript",
                         "level" : 8,
                         "color" : "#fd6"
@@ -42,7 +42,7 @@
                 {
                     "type" : "card",
                     "content" : {
-                        "image" : "/images/android.svg",
+                        "image" : "/images/android.png",
                         "title" : "Android",
                         "level" : 8,
                         "color" : "#A3C53D"
@@ -51,7 +51,7 @@
                 {
                     "type" : "card",
                     "content" : {
-                        "image" : "/images/asp_net.svg",
+                        "image" : "/images/asp_net.png",
                         "title" : "Asp.net",
                         "level" : 5,
                         "color" : "#0A78D5"
@@ -60,7 +60,7 @@
                 {
                     "type" : "card",
                     "content" : {
-                        "image" : "/images/node_js.svg",
+                        "image" : "/images/node_js.png",
                         "title" : "nodejs",
                         "level" : 9,
                         "color" : "#81CC30"
@@ -69,7 +69,7 @@
                 {
                     "type" : "card",
                     "content" : {
-                        "image" : "/images/html5.svg",
+                        "image" : "/images/html5.png",
                         "title" : "Html",
                         "level" : 10,
                         "color" : "#EE642B"
@@ -78,7 +78,7 @@
                 {
                     "type" : "card",
                     "content" : {
-                        "image" : "/images/angularjs.svg",
+                        "image" : "/images/angularjs.png",
                         "title" : "Angular",
                         "level" : 10,
                         "color" : "#DC062F"
@@ -87,7 +87,7 @@
                 {
                     "type" : "card",
                     "content" : {
-                        "image" : "/images/bootstrap.svg",
+                        "image" : "/images/bootstrap.png",
                         "title" : "Bootstrap",
                         "level" : 8,
                         "color" : "#7D53A5"
