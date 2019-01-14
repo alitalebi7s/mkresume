@@ -17,6 +17,8 @@ class App extends Component {
         }
     }
 
+    /** change color  method
+     * it store last scroll position before change the colorset*/
     changeColor(scrollPos) {
         this.setState({
             colorSet: this.getRandomColor(),
@@ -32,13 +34,12 @@ class App extends Component {
         window.removeEventListener('scroll', this.handleScroll);
     }
 
-
-
     handleScroll = (event) => {
+        // jump to last scroll position after color change, to keep position
         if (window.scrollY == 0 && this.state.scrollBreaked) {
             window.scrollTo(0,this.state.scrollPos)
             this.setState({scrollBreaked : false})
-        }
+        } // magic wand only works on title section
         else if(window.scrollY <= 300) {
             this.setState({showWand: true})
         }
@@ -47,6 +48,7 @@ class App extends Component {
 
     getRandomColor = () => {
         let cs = Math.floor((Math.random() * 4) + 0)
+        // making sure to get a different number
         return (cs === this.state.colorSet) ? this.getRandomColor() : cs
     }
 

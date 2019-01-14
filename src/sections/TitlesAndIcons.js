@@ -13,6 +13,7 @@ export default class TitlesAndIcons extends Component {
     }
 
     componentDidUpdate (prevProps, prevState) {
+        //changing snowStorm color by style, because it set props in its constructor
         if(prevProps.colorSet != this.props.colorSet) {
             let elements = document.getElementsByClassName("___snowStorm___");
             for(let i = 0 ; i < elements.length ; i++) {
