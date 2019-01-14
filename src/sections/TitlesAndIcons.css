@@ -1,6 +1,6 @@
 .first {
-    background-color: #282840;
     color: #eef;
+    position: relative;
 }
 
 .first .title {
@@ -38,6 +38,10 @@
 
 .social-icon:hover .social-svg-mask{
     fill: #fff !important;
+}
+
+#snow-target {
+    overflow: hidden;
 }
 
 

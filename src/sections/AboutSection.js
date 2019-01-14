@@ -14,7 +14,11 @@ export default class TitlesAndIcons extends Component {
                 <div className="page-body">
                     <h2 className="title">{data.sections[0].title}</h2>
                     <hr/>
-                    <p className="content">{data.sections[0].items[0].content}</p>
+                    {
+                        data.sections[0].items.map((obj) => {
+                            return (<p className="content">{obj.content}</p>)
+                        })
+                    }
                 </div>
                 <Link activeClass="active" to="skillSection" spy={true} smooth={true} duration={500}>
                     <DownArrow icon={data.icons.down} isInvert={true}/>
